@@ -1,0 +1,150 @@
+header .top-cart {
+  margin: 174px;
+  text-align: center;
+  position: relative;
+  opacity: 1;
+  transition: padding 0.4s ease, margin 0.4s ease, opacity 0.2s 0.2s ease;
+}
+header .top-cart #trigger {
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+header .top-cart #trigger .number {
+  text-decoration: none;
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #20c997a6;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  z-index: 1;
+  overflow: hidden;
+  font-size: 12px;
+  top: -4px;
+  left: auto;
+  right: -13px;
+}
+header .top-cart #trigger i {
+  color: #000000a8;
+}
+header .top-cart .content {
+  opacity: 1;
+  z-index: 399;
+  margin-top: 0;
+  position: absolute;
+  width: 280px;
+  left: auto;
+  border: 1px solid #eee;
+  border-top: 2px solid #1abc9c;
+  transition: opacity 0.5s ease, top 0.4s ease;
+  box-shadow: 0 20px 50px 10px rgba(0, 0, 0, 0.05);
+  right: 566px;
+  top: 40px;
+}
+header .title {
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 14px;
+}
+header h4 {
+  color: #444;
+  line-height: 1.5;
+  margin: 0 116px 38px 0;
+  font-family: Poppins, sans-serif;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+header .cart-items {
+  padding-bottom: 10px;
+  padding-left: 16px;
+}
+header .cart-items .cart-item {
+  display: flex;
+  justify-content: flex-start;
+}
+header .cart-items .cart-item img {
+  display: block;
+  width: 44px;
+  height: 44px;
+  border: 1px solid #5e5d5d29;
+  max-width: 100%;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+header .cart-items .cart-item img:hover {
+  border-color: #1abc9c;
+}
+header .cart-items .cart-item .description {
+  display: inline-block;
+  max-width: 100%;
+  padding-left: 16px;
+}
+header .cart-items .cart-item .description p {
+  display: block;
+  font-size: 13px;
+  line-height: 20px;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 5px;
+  transition: all 0.3s linear;
+  font-family: Lato, sans-serif;
+  text-align: left;
+  width: 158px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+header .cart-items .cart-item .description p:hover {
+  color: #1abc9c;
+}
+header .cart-items .cart-item .description span {
+  font-size: 12px;
+  color: #999;
+  font-family: Lato, sans-serif;
+  display: block;
+  padding-right: 115px;
+}
+header .view {
+  align-items: center;
+  padding: 1rem;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+header .view .price {
+  color: #1abc9c;
+  font-size: 20px;
+  font-family: Lato, sans-serif;
+}
+header .view a {
+  transition: all 0.2s ease-in-out;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  padding: 7px 17px;
+  font-size: 12px;
+  line-height: 20px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  outline: 0;
+  white-space: nowrap;
+  background-color: #1abc9c;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border: none;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+header .view a:hover {
+  background-color: #1abc9c;
+  opacity: 0.9;
+}
+
+hr {
+  color: #00000045;
+}/*# sourceMappingURL=style.css.map */
