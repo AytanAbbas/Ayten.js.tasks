@@ -1,0 +1,31 @@
+form {
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 93px;
+}
+
+form select {
+  margin: 22px 86px;
+  font-weight: bold;
+  border: 2px solid;
+}
+
+form input {
+  margin: 22px 86px;
+  border: 2px solid;
+  width: 212px;
+}
+
+form textarea {
+  margin: 22px 86px;
+  border: 2px solid;
+  width: 212px;
+}
+
+form button {
+  margin: 15px 86px;
+  width: 120px;
+}
+/*# sourceMappingURL=style.css.map */
